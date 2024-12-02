@@ -9,35 +9,30 @@ import Portfolio from "./Pages/Portfolio/Portfolio.jsx";
 import Contact from "./Pages/Contact/Contact.jsx";
 import Project from "./Pages/Project/Project.jsx";
 
-const router = createBrowserRouter(
-  [
-    {
-      path: "/",
-      element: <App />,
-      children: [
-        {
-          path: "/",
-          element: <Home />,
-        },
-        {
-          path: "/portfolio",
-          element: <Portfolio />,
-        },
-        {
-          path: "/portfolio/:id",
-          element: <Project />,
-        },
-        {
-          path: "/contact",
-          element: <Contact />,
-        },
-      ],
-    },
-  ],
+const router = createBrowserRouter([
   {
-    basename: "/my-portfolio",
-  }
-);
+    path: "/",
+    element: <App />,
+    children: [
+      {
+        path: "/",
+        element: <Home />,
+      },
+      {
+        path: "/portfolio",
+        element: <Portfolio />,
+      },
+      {
+        path: "/portfolio/:id",
+        element: <Project />,
+      },
+      {
+        path: "/contact",
+        element: <Contact />,
+      },
+    ],
+  },
+]);
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
