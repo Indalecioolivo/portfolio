@@ -1,6 +1,6 @@
 :root {
   box-sizing: border-box;
-  border: 1px solid purple;
+  /* border: 1px solid purple; */
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);

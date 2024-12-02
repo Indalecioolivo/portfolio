@@ -5,7 +5,7 @@ import WhatsAppImg from "../../assets/whatsapp.png";
 export default function Contact() {
   return (
     <section className="contact-container">
-      <article>
+      <article id="contact-me">
         <h2>Entre em Contato</h2>
         <p>
           Estou em busca de uma vaga de Estágio ou Junior, mas também faço
