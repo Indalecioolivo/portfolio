@@ -1,0 +1,47 @@
+:root {
+  box-sizing: border-box;
+  border: 1px solid purple;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --primaryGreen: rgb(95, 180, 162);
+  --primaryBlue: rgb(32, 58, 76);
+  --primaryDark: rgb(51, 50, 61);
+  --secondaryLight: rgb(250, 250, 250);
+  --secondaryGrey: rgb(234, 234, 235);
+
+  --titleFont: "Ibarra Real Nova", "sans-serif";
+  --h1Size: 3.1rem;
+  --h1Line: 3.1rem;
+  --h2Size: 2.5rem;
+  --h2Line: 2.6rem;
+  --h3Size: 2rem;
+  --h3Line: 2.25rem;
+  --textFont: "Public Sans", "sans-serif";
+  --textSize: 1rem;
+  --textLine: 1.8rem;
+
+  --primaryButtonWidth: 12.5rem;
+  --buttonHeigth: 3rem;
+  --secondaryButtonWidth: 10.25rem;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}

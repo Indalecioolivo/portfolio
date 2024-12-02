@@ -1,0 +1,26 @@
+.portfolio-container {
+  width: 69.4rem;
+  /* border: 1px solid black; */
+}
+
+.portfolio-container .to-recruiters {
+  display: flex;
+  gap: 3.1rem;
+  /* border: 1px solid black; */
+}
+.portfolio-container .to-recruiters div {
+  width: 33rem;
+
+  margin-bottom: 5rem;
+
+  border-top: 1px solid var(--secondaryGrey);
+  border-bottom: 1px solid var(--secondaryGrey);
+  padding-bottom: 1rem;
+}
+
+.portfolio-container .to-recruiters h3 {
+  font-size: var(--h3Size);
+}
+.portfolio-container .to-recruiters p {
+  line-height: var(--textLine);
+}

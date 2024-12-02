@@ -1,0 +1,78 @@
+.footer-container {
+  width: 90rem;
+  height: 19.6rem;
+  /* border: 1px solid black; */
+  margin-top: 9.3rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-container .container-contact {
+  width: 63.4rem;
+  height: 5.25rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-container .container-contact h3 {
+  width: 23rem;
+
+  font-family: var(--titleFont);
+  font-size: var(--h3Size);
+}
+
+.footer-container footer {
+  width: 100%;
+  height: 5rem;
+
+  background-color: var(--primaryDark);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer-container footer nav {
+  width: 69.4rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-container footer nav div {
+  width: 26rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-container footer nav .nav-option {
+  font-family: var(--textFont);
+  font-size: var(--textSize);
+
+  text-decoration: none;
+  color: var(--secondaryLight);
+}
+
+.footer-container footer nav .nav-option:hover {
+  color: var(--primaryGreen);
+}
+
+.footer-container footer nav .icons {
+  width: 6.5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.footer-container footer nav .icons img:hover {
+  cursor: pointer;
+}

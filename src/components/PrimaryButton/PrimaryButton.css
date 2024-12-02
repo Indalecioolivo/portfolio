@@ -1,0 +1,31 @@
+.btn-gray {
+  width: var(--primaryButtonWidth);
+  height: var(--buttonHeigth);
+
+  border: 1px solid var(--primaryDark);
+
+  font-family: var(--textFont);
+  cursor: pointer;
+}
+
+.btn-gray:hover {
+  background-color: var(--primaryDark);
+  color: var(--secondaryLight);
+}
+
+.btn-blue {
+  width: var(--primaryButtonWidth);
+  height: var(--buttonHeigth);
+
+  border: none;
+  background-color: var(--primaryBlue);
+  color: var(--secondaryLight);
+
+  font-family: var(--textFont);
+  cursor: pointer;
+}
+
+.btn-blue:hover {
+  background-color: var(--primaryGreen);
+  color: var(--secondaryLight);
+}

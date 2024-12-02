@@ -1,0 +1,29 @@
+.header-container {
+  width: 69.4rem;
+  height: 2rem;
+  /* border: 1px solid black; */
+  margin: 58px 0px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-container nav {
+  width: 17.4rem;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-container nav .nav-option {
+  font-family: var(--textFont);
+  font-size: var(--textSize);
+
+  text-decoration: none;
+  color: var(--primaryDark);
+}
+
+.header-container .nav-option:hover {
+  color: var(--primaryGreen);
+}
