@@ -4,8 +4,12 @@ import ModelPhoto from "../../assets/model-photo.png";
 import ArrowButton from "../../assets/arrow-button-about-me.svg";
 import PrimaryButton from "../../components/PrimaryButton/PrimaryButton";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 
 export default function Home() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <section className="home-container">
       <section>

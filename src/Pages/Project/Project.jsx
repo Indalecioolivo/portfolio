@@ -1,9 +1,12 @@
 import "./Project.css";
 import SecondaryButton from "../../components/SecondaryButton/SecondaryButton";
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import { GeneralContext } from "../../contexts/GeneralContext";
 export default function Project() {
   const { project, setProject } = useContext(GeneralContext);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <article className="project-container">

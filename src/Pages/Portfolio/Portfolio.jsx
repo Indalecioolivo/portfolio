@@ -1,8 +1,12 @@
 import "./Portfolio.css";
 import MyProject from "../../components/MyProject/MyProject";
 import myProjectsInfos from "../../db/dbprojects";
+import { useEffect } from "react";
 
 export default function Portfolio() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <section className="portfolio-container">
       <section className="to-recruiters">

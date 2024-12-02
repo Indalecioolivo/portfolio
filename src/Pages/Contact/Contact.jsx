@@ -1,8 +1,12 @@
 import "./Contact.css";
 import PrimaryButton from "../../components/PrimaryButton/PrimaryButton";
 import WhatsAppImg from "../../assets/whatsapp.png";
+import { useEffect } from "react";
 
 export default function Contact() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <section className="contact-container">
       <article id="contact-me">
