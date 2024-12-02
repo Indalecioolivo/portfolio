@@ -3,6 +3,7 @@ import Photo from "../../assets/photo-home.png";
 import ModelPhoto from "../../assets/model-photo.png";
 import ArrowButton from "../../assets/arrow-button-about-me.svg";
 import PrimaryButton from "../../components/PrimaryButton/PrimaryButton";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -43,10 +44,9 @@ export default function Home() {
             pratiquei sobre metodologias ágeis, e também pratiquei minhas
             habilidades através da produção de aplicações full-stack.
           </p>
-
-          <a href="/portfolio" className="for-button">
+          <Link to="/portfolio">
             <PrimaryButton styleBtn="btn-gray" textBtn="IR PARA PORTFÓLIO" />
-          </a>
+          </Link>
         </div>
       </article>
     </section>

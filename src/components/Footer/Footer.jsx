@@ -5,20 +5,13 @@ import LinkedinIcon from "../../assets/linkedin-icon.png";
 import SecondaryButton from "../SecondaryButton/SecondaryButton";
 
 export default function Footer() {
-  function handleTest(e) {
-    console.log("oi");
-  }
   return (
     <section className="footer-container">
       <div className="container-contact">
         <h3>Interesse em fazer projetos comigo?</h3>
-        <a href="/contact">
-          <SecondaryButton
-            styleBtn="btn-gray"
-            textBtn="CONTATO"
-            handleFunction={(e) => handleTest(e)}
-          />
-        </a>
+        <Link to="/contact">
+          <SecondaryButton styleBtn="btn-gray" textBtn="CONTATO" />
+        </Link>
       </div>
       <footer>
         <nav>
