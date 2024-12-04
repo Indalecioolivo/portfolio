@@ -24,3 +24,16 @@
 .portfolio-container .to-recruiters p {
   line-height: var(--textLine);
 }
+
+@media (max-width: 768px) {
+  .portfolio-container {
+    max-width: 90vw;
+  }
+  .portfolio-container .to-recruiters {
+    flex-direction: column;
+  }
+  .portfolio-container .to-recruiters div {
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+}

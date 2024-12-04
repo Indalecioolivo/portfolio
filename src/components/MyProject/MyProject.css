@@ -40,3 +40,17 @@
 .myproject-container .about-project .used-tecnology h3 {
   /* border: 1px solid green; */
 }
+
+@media (max-width: 768px) {
+  .myproject-container {
+    /* border: 1px solid black; */
+    flex-direction: column;
+    margin-bottom: 3rem;
+  }
+  .myproject-container img {
+    width: 100%;
+  }
+  .myproject-container .about-project {
+    margin-left: 0;
+  }
+}
