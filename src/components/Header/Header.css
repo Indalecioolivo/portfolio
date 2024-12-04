@@ -27,3 +27,12 @@
 .header-container .nav-option:hover {
   color: var(--primaryGreen);
 }
+
+@media (max-width: 768px) {
+  .header-container {
+    width: 90vw;
+  }
+  .header-container nav {
+    justify-content: space-around;
+  }
+}
