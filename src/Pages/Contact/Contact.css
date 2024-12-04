@@ -93,3 +93,25 @@
 .contact-container article form input:focus {
   border: 1px solid #33323d;
 }
+
+@media (max-width: 768px) {
+  .contact-container {
+    max-width: 90vw;
+  }
+  .contact-container article {
+    flex-direction: column;
+  }
+  .contact-container article p {
+    width: 100%;
+  }
+  .contact-container article form {
+    width: 100%;
+    /* border: 1px solid black; */
+  }
+  .contact-container article form input {
+    width: 90%;
+  }
+  .contact-container article form textarea {
+    width: 90%;
+  }
+}
