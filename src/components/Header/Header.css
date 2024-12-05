@@ -1,7 +1,7 @@
 .header-container {
   width: 69.4rem;
-  height: 2rem;
-  /* border: 1px solid black; */
+  height: 3rem;
+  background-color: var(--primaryDark);
   margin: 58px 0px;
 
   display: flex;
@@ -9,11 +9,16 @@
   justify-content: space-between;
 }
 
+.header-container svg {
+  padding-left: 1rem;
+}
+
 .header-container nav {
   width: 17.4rem;
 
   display: flex;
   justify-content: space-between;
+  padding-right: 1rem;
 }
 
 .header-container nav .nav-option {
@@ -21,7 +26,7 @@
   font-size: var(--textSize);
 
   text-decoration: none;
-  color: var(--primaryDark);
+  color: var(--secondaryLight);
 }
 
 .header-container .nav-option:hover {
