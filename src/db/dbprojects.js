@@ -50,7 +50,7 @@ const myProjectsInfos = [
     photo2: InventoryPhoto2,
     photo3: InventoryPhoto3,
     projectName: "LM Inventory Control",
-    linkDeploy: "https://glindustry.netlify.app/login",
+    linkDeploy: "https://gl-industry-front-deploy.vercel.app",
     linkGitRepFront:
       "https://github.com/Indalecioolivo/GL-INDUSTRY-FRONT-DEPLOY",
     linkGitRepBack: "https://github.com/Indalecioolivo/GL-INDUSTRY-BACK",
